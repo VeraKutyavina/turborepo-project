@@ -1,0 +1,16 @@
+{
+  "name": "@repo/math",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsc --watch",
+      "build": "tsc"
+  },
+  "exports": {
+    "./add": "./src/add.ts"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+      "typescript": "latest"
+  }
+}
